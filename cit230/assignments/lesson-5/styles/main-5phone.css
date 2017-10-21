@@ -70,7 +70,7 @@ header .subheading {
 
 }
 
-@media only screen and (min-width: 11em){
+
 
     header nav {
         float: none;
@@ -126,22 +126,7 @@ header .subheading {
         text-decoration: none;
         width: 100%;
     }
-    .menu-btn .icon {
-        float: right;
-        display: block;
-        display: none;
-    }
-    .menu-btn.responsive {
-        position: relative;
-        right: 0;
-        top: 0;
-    }
-    .menu-btn.responsive a {
-        float: none;
-        display: block;
-        text-align: left;
-    }
-}
+
 
 main {
     position: relative;
