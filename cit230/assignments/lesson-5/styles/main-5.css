@@ -32,7 +32,7 @@ text-align: center;
 }
 
 header img {
-height: 200px;
+height: 180px;
 position: relative;
 background-size: 100%;
 display: block;
@@ -82,11 +82,11 @@ padding: 0;
 nav button {
 display: block;
 height: 51px;
-width: 100%;
+width: 96%;
 background-color: #E8503A;
 cursor: pointer;
 position: absolute;
-top: 197;
+top: ;
 }
 
 nav ul {
