@@ -9,11 +9,11 @@ nav button { display:none; }  /* hamburger button does not need to be shown */
     }
 
     header h1 {
-        bottom: 360
+        bottom: 380;
     }
 
     header .subheading {
-        bottom: 280;
+        bottom: 300;
 
     }
 

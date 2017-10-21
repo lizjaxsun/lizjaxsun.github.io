@@ -3,9 +3,6 @@
 
 article p.town-article img { width: 29.333%; }
 
-
-
-@media only screen(min-width: 64em) {
 header img {
     height: 200;
     position: relative;
@@ -13,17 +10,18 @@ header img {
 
 }
 
+
 header h1{
-    bottom: 340;
-    position: relative;
+    bottom: 378;
 
 }
+
 
 header .subheading {
-    bottom: 280
-        position: relative;
-}
+    bottom: 300;
+    position: absolute;
     }
+
 
 }
 
