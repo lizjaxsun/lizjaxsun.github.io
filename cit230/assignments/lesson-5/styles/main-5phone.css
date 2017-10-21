@@ -39,7 +39,7 @@ header img {
     padding: 0 0;
     margin: auto;
     text-align: center;
-    width: 368px;
+    width: 100%;
 }
 
 header h1 {
@@ -69,6 +69,11 @@ header .subheading {
     padding: 3;
 
 }
+
+
+@media only screen and (max-width: 30em) {
+
+
 
 header nav {
         float: none;
@@ -117,7 +122,7 @@ nav ul li a {
         text-decoration: none;
         width: 100%;
     }
-
+}
 
 main {
     position: relative;
