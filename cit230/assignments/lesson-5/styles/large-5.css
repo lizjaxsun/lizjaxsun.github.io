@@ -5,7 +5,7 @@ article p.town-article img { width: 29.333%; }
 
 }
 
-@media only screen and (min-width: 64em) {
+@media only screen and (min-width: 64em)
 
 header img {
     height: 150;
@@ -14,4 +14,4 @@ header img {
     top: 40;
 
 }
-}
+
