@@ -4,3 +4,11 @@
 article p.town-article img { width: 29.333%; }
 
 }
+
+header img {
+    height: 190;
+    position: relative;
+    display: block;
+    top: 40;
+
+}
