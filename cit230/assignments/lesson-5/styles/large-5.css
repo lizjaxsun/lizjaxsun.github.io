@@ -6,10 +6,12 @@ article p.town-article img { width: 29.333%; }
 }
 @media only screen and (min-width: 64em) and (min-width: 28.5em) {
 header h1 {
+    top: 0;
 
 }
 
 header .subheading {
+    top: 0;
     }
 
 header img {
