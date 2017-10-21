@@ -3,14 +3,27 @@
 
 article p.town-article img { width: 29.333%; }
 
-}
 
 
+@media only screen(min-width: 64em) {
 header img {
-    height: 150;
+    height: 200;
     position: relative;
     display: block;
-    top: 40;
-}
 
 }
+
+header h1{
+    bottom: 340;
+    position: relative;
+
+}
+
+header .subheading {
+    bottom: 280
+        position: relative;
+}
+    }
+
+}
+

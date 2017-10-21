@@ -5,6 +5,16 @@ nav button { display:none; }  /* hamburger button does not need to be shown */
 
     header img {
         min-width: 100%
+            top: 40px;
+    }
+
+    header h1 {
+        bottom: 360
+    }
+
+    header .subheading {
+        bottom: 280;
+
     }
 
     nav {

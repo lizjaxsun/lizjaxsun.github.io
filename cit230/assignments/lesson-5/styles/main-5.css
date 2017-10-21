@@ -40,6 +40,7 @@ padding: 0 0;
 margin: auto;
 text-align: center;
 width: 100%;
+text-align: center;
 }
 
 header h1 {
@@ -48,13 +49,13 @@ margin: auto;
 top: 0;
 left: 0;
 right: 0;
-bottom: 0;
+bottom: 425;
 height: 50px;
 width: 335px;
 padding: 3;
 color: aqua;
 font-family: tahoma;
-
+text-align: center;
 }
 
 header .subheading {
@@ -63,7 +64,7 @@ margin: auto;
 top: 0;
 left: 0;
 right: 0;
-bottom: 0;
+bottom: 340;
 height: 50px;
 width: 280;
 padding: 3;
