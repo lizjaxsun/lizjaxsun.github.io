@@ -6,16 +6,17 @@
         <title></title>
         <meta name="Elizabeth Jackson" content="tether the Weather">
         <meta name="description" content="be prepared and confident for current, past, and future weather conditions in our towns!">
+        <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
         <!-- external style references in the proper cascading order -->
         <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">
         <!-- Google API font reference -->
-        <link href="/cit230/assignments/lesson-5/styles/normalize.css" rel="stylesheet" type="text/css">
+        <link href="/cit230/assignments/lesson-6/styles/normalizel.css" rel="stylesheet" type="text/css">
         <!-- normalize useragent/browser defaults -->
-        <link href="/cit230/assignments/lesson-5/styles/main-5.css" rel="stylesheet" type="text/css">
+        <link href="/cit230/assignments/lesson-6/styles/main-6.css" rel="stylesheet" type="text/css">
         <!-- default styles - small/phone views -->
-        <link href="/cit230/assignments/lesson-5/styles/medium-5.css" rel="stylesheet" type="text/css">
+        <link href="/cit230/assignments/lesson-6/styles/medium-6.css" rel="stylesheet" type="text/css">
         <!-- medium/tablet views -->
-        <link href="/cit230/assignments/lesson-5/styles/large-5.css" rel="stylesheet" type="text/css">
+        <link href="/cit230/assignments/lesson-6/styles/large-6.css" rel="stylesheet" type="text/css">
         <!-- large/wide/desktop views -->
     </head>
 
@@ -40,9 +41,11 @@
         </nav>
 
         <main>
-            <h2>The City of Franklin</h2>
+            <h2>The City of Franklin</h2> <br> <br> <br>
             <figure>
-                <img src="images/larger/city-min.jpg" alt="At dusk, city lights glimmer upon tall and seamless buildings with a colorful sky">
+                <img class="large" src="images/city-large.jpg" alt="At dusk, city lights glimmer upon tall and seamless buildings with a colorful sky">
+                <img class="medium" src="images/city-medium.jpg" alt="At dusk, city lights glimmer upon tall and seamless buildings with a colorful sky">
+                <img class="small" src="images/city-small.jpg" alt="At dusk, city lights glimmer upon tall and seamless buildings with a colorful sky">
             </figure>
             <section>
                 <h3>Weather Summary</h3>
@@ -51,9 +54,14 @@
                     <p>Low:</p>
                 </div>
                 <div class="current">
-                    Sunny
-                    <picture>
-                        <img src="images/larger/franklin-original-min.jpg" alt="" width="" height="">
+                  <p>Sunny</p>
+                    <picture class="contain">
+                        <img class="large" src="images/franklin-large.jpg" alt="">
+                        <h2 class="large" id="large-txt"> Large </h2>
+                        <img class="medium" src="images/franklin-medium.jpg" alt="">
+                        <h2 class="medium" id="medium-txt"> Medium </h2>
+                        <img class="small" src="images/franklin-small.jpg" alt="">
+                        <h2 class="small" id="small-txt"> Small </h2>
                     </picture>
                 </div>
                 <div class="conditions">
@@ -116,11 +124,28 @@
 
         </main>
 
-        <footer>
-            <aside>
+        <footer class="container">
+            <aside class="info">
                 Contact information placeholder
             </aside>
-            <p class="footer-bar">&copy;2017 All Rights Reserved | Tether the Weather | <span id="currentdate">Current Date Placeholder</span></p>
+            <br>
+
+            <p class="footer-bar"> | &copy;2017 All Rights Reserved | Tether the Weather | <span id="currentdate">
+        <script>
+                var now = new Date();
+                var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+                var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+                var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+                function fourdigits(number) {
+                    return (number < 1000) ? number + 1900 : number;
+                }
+                today =  days[now.getDay()] + ", " + date + " " +
+                    months[now.getMonth()] + " " +
+                    (fourdigits(now.getYear())) ;
+                document.write(today);
+        </script>
+                      </span></p>
+
         </footer>
 
         <script src="scripts/hamburger.js"></script>
