@@ -46,7 +46,7 @@ header h1 {
     position: absolute;
     display: block;
     margin: auto;
-    top: 42;
+    top: 62;
     left: 0;
     right: 0;
     height: 50px;
@@ -63,7 +63,7 @@ header h1 {
 header .subheading {
     position: absolute;
     margin: auto;
-    top: 45;
+    top: 65;
     left: 0;
     right: 0;
     height: 50px;
