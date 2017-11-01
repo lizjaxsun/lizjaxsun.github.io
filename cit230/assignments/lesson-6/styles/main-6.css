@@ -95,6 +95,14 @@ padding: 3;
         color: black;
     }
 
+    header h1 {
+         bottom: 500px;
+    }
+
+    header .subheading {
+        bottom: 420px;
+    }
+
     nav ul li a:hover {
         background-color: black;
     }
