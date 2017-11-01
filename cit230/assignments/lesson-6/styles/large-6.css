@@ -33,14 +33,13 @@ header img {
 
 header h1{
     display: relative;
-    bottom: 430px;
-
+    bottom: 420px;
 }
 
 
 header .subheading {
     display: relative;
-    bottom: 353px;
+    bottom: 340px;
     position: absolute;
     }
 
