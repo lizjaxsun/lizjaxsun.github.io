@@ -48,7 +48,7 @@ text-align: center;
 
 header h1 {
 position: absolute;
-margin: auto;
+
 top: 0;
 left: 0;
 right: 0;
@@ -63,7 +63,7 @@ text-align: center;
 
 header .subheading {
 position: absolute;
-margin: auto;
+
 top: 0;
 left: 0;
 right: 0;
