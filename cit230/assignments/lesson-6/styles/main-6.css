@@ -63,11 +63,12 @@ header h1 {
 header .subheading {
     position: absolute;
     margin: auto;
-    top: 65;
+    top: 0;
     left: 0;
     right: 0;
+    bottom: 0;
     height: 50px;
-    width: 280;
+    max-width: 280;
     padding: 3;
 }
 
