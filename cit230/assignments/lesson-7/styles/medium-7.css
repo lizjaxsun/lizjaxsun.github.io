@@ -10,34 +10,40 @@ nav button { display:none; }  /* hamburger button does not need to be shown */
 .medium {
 width: 93%;
 }
+    main img {
+        width: 100%;
+        height: 100%;
+    }
 
-picture img, main img {display: block;
-width: 93%;
-max-width: 680px;
-margin-left: auto;
-margin-right: auto;}
+    .grid {display: none;}
 
+    .grid-small {display: none;}
 
-div picture h2 {
-display: block;
-width: 93%;
-max-width: 680px;
-margin: 0 auto;
-left: 3.4%;
-text-align: center;
-color: black;
-top: 84px;
-padding: 15.5%;
+ .grid-medium {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 20% 20% 20%;
+        grid-column-gap: 10px;;
+        grid-row-gap: 0px;
+        justify-content: center;
+        padding: 4%;
+        padding-bottom: 100px;
+    }
 
-}
+    p {
+        text-align: center;
+    }
+
+@media only screen and (max-width: 670px) {
+
+    p {
+        font-size: 78%;
+    }
+
+    }
 
 @media only screen and (min-width: 760px) {
 
-div picture h2 {
-padding: 115px;
-left: 0;
-right: 0;
-}
 
 
 }
@@ -48,11 +54,35 @@ top: 40px;
 }
 
 header h1 {
-bottom: 420px;
+    bottom: 480px;
+    width: 335px;
+    margin-bottom: -30px;
+    margin-right: auto;
+    margin-left: auto;
+    left: 0;
+    right: 0;
+    height: 50px;
+    width: 335px;
+    padding: 3;
+    color: aqua;
+    font-family: tahoma;
+    text-align: center;
 }
 
 header .subheading {
-bottom: 343px;
+
+    bottom: 323px;
+    width: 280px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    left: 0;
+    right: 0;
+    height: 50px;
+    max-width: 280;
+    padding: 3;
+    text-align: center;
 
 }
 
@@ -119,46 +149,7 @@ position: relative;
 color: E8503A;
 }
 
-#franklin-article {
-position: relative;
-top: 27;
-color: #E8503A;
-text-align-last: center;
-}
 
-section.forecast {
-position: relative;
-text-decoration-line: underline;
-border-color: #00E5BA;
-}
-
-section.forecast, th, td {
-border-color: aqua;
-padding: 0;
-left: -1%;
-column-rule-style: ridge;
-border: 2px solid #E8503A;
-background-color: B2121D;
-color: #00E5BA;
-}
-
-th, td {
-font-size: 14;
-text-align-last: center;
-width: 134;
-padding:
-}
-
-article p.town-article img {
-/* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-position: relative;
-width: 520;
-height: 150;
-margin: auto;
-left: 0;
-right: 0;
-/* fill the page in the small/phone view */
-}
 
 @media only screen and (min-device-width: 28.5em) and (max-width: 64em) {
 
@@ -166,9 +157,6 @@ right: 0;
 position: relative;
 }
 
-picture img .medium {
-display: relative;
-}
 
 footer {
 display: block;
