@@ -252,7 +252,7 @@ height: 200px
 
 section {
 position: relative;
-color: E8503A;
+color: #E8503A;
 }
 
 /*
@@ -285,6 +285,39 @@ color: E8503A;
 .conditions {
     display: block;
     position: absolute;
+}
+
+.windchill {
+    display: block;
+    background-color: fuchsia;
+    margin: 1rem; color:#0F415C;
+    text-decoration-color: aliceblue;
+}
+
+.windchill .form {
+    background-color:#0F415C; padding: 1rem; border:1px solid #eee;
+    text-decoration-color: aliceblue;
+}
+
+.windchill div {
+    background-color:#0F415C; padding: 1rem; border:1px solid;
+    color: aliceblue;
+
+}
+
+div input {
+    background-color:cadetblue;
+    border: 1px solid #eee;
+    padding-left: 30px;
+}
+
+.windchill #aNum {
+    border:1px solid #eee; background-color: #eee; text-align:center;
+
+}
+
+section div div {
+    margin-top: 8px;
 }
 
 #franklin-article {
@@ -326,6 +359,11 @@ font-size: 14;
 text-align-last: center;
 width: 134;
 padding:
+}
+
+.conditions {
+    display: block;
+    position: absolute;
 }
 
 
