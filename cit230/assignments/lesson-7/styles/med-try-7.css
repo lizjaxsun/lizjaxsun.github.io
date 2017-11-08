@@ -1,0 +1,239 @@
+@media only screen and (min-width: 430px) and (max-width: 1024px) {
+/* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here WAS AT 37.5em, 28.5em */
+
+nav button { display:none; }  /* hamburger button does not need to be shown */
+
+.small { display: none; }
+
+.large { display: none;}
+
+.medium {
+width: 93%;
+}
+
+picture img, main img {display: block;
+width: 93%;
+max-width: 680px;
+margin-left: auto;
+margin-right: auto;}
+
+
+div picture h2 {
+display: block;
+width: 93%;
+max-width: 680px;
+margin: 0 auto;
+left: 3.4%;
+text-align: center;
+color: black;
+top: 150px;
+padding: 15.5%;
+
+}
+
+@media only screen and (min-width: 760px) {
+
+div picture h2 {
+padding: 115px;
+left: 0;
+right: 0;
+}
+
+
+}
+
+header img {
+min-width: 100%
+top: 40px;
+}
+
+header h1 {
+bottom: 480px;
+width: 335px;
+margin-bottom: -30px;
+margin-right: auto;
+margin-left: auto;
+left: 0;
+right: 0;
+height: 50px;
+width: 335px;
+padding: 3;
+color: aqua;
+font-family: tahoma;
+text-align: center;
+}
+
+header .subheading {
+
+bottom: 323px;
+width: 280px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+left: 0;
+right: 0;
+height: 50px;
+max-width: 280;
+padding: 3;
+text-align: center;
+
+}
+
+nav {
+display: block;
+position: fixed;
+color: aqua;
+}
+
+nav ul {
+position: fixed;
+top: 0;
+width: 100%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #00B9A7;
+
+}
+
+nav ul li {
+display: inline;
+float: left;
+width: 20%;
+}
+
+nav ul li a {
+display: block;
+color: #0F415C;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+nav ul li.active a {
+background-color: #33697F;
+}
+
+nav ul li a:hover {
+background-color: #111;
+}
+
+main {
+position: relative;
+bottom: -35;
+}
+
+main h2 {
+position: absolute;
+color: #E8503A;
+text-align: center;
+}
+
+main figure {
+
+}
+
+main figure img {
+
+}
+
+section {
+position: relative;
+color: E8503A;
+}
+
+#franklin-article {
+position: relative;
+top: 27;
+color: #E8503A;
+text-align-last: center;
+}
+
+section.forecast {
+position: relative;
+text-decoration-line: underline;
+border-color: #00E5BA;
+}
+
+section.forecast, th, td {
+border-color: aqua;
+padding: 0;
+left: -1%;
+column-rule-style: ridge;
+border: 2px solid #E8503A;
+background-color: B2121D;
+color: #00E5BA;
+}
+
+th, td {
+font-size: 14;
+text-align-last: center;
+width: 134;
+padding:
+}
+
+article p.town-article img {
+/* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+position: relative;
+width: 520;
+height: 150;
+margin: auto;
+left: 0;
+right: 0;
+/* fill the page in the small/phone view */
+}
+
+@media only screen and (min-device-width: 28.5em) and (max-width: 64em) {
+
+.container {
+position: relative;
+}
+
+picture img .medium {
+display: relative;
+}
+
+footer {
+display: block;
+background-color: #E8503A;
+position: relative;
+bottom: 0;
+right: 0;
+left: 0;
+width: 100%;
+
+
+}
+
+footer aside {
+display: block;
+top: 8px;
+text-align: center;
+width: 100%;
+position: absolute;
+
+}
+
+
+.footer-bar {
+top: 35px;
+text-align: center;
+width: 100%;
+position: absolute;
+}
+
+#currentdate {
+display: block;
+text-align: center;
+}
+
+
+footer>p {
+}
+}
+
+
+article p.town-article img { width: 520; float:left; }  /* responsive images */
+
+}

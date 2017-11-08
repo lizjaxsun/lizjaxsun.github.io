@@ -1,0 +1,126 @@
+@media only screen and (min-width: 1024px) {
+/* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here WAS 64em */
+
+article p.town-article img { width: 29.333%; }
+
+nav button { display: none;}
+
+header img {
+height: 200;
+position: relative;
+display: block;
+}
+
+.small { display: none; }
+
+.medium { display: none;}
+
+.large {
+display: relative;
+width: 680px;
+margin-left: 20%;
+}
+
+div picture h2 {
+display: absolute;
+bottom: 280px;
+line-height: 10.9;
+text-align: center;
+color: black;
+}
+
+
+
+header h1{
+display: relative;
+bottom: 455px;
+}
+
+
+header .subheading {
+display: relative;
+bottom: 330px;
+max-width: 400px;
+position: absolute;
+text-align: center;
+}
+
+
+nav {
+display: block;
+position: fixed;
+color: aqua;
+}
+
+nav ul {
+position: fixed;
+top: 0;
+width: 100%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #00B9A7;
+
+}
+
+nav ul li {
+display: inline;
+float: left;
+width: 20%;
+}
+
+nav ul li a {
+display: block;
+color: #0F415C;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+nav ul li.active a {
+background-color: #33697F;
+}
+
+nav ul li a:hover {
+background-color: #111;
+}
+
+
+
+footer {
+display: block;
+background-color: #E8503A;
+position: relative;
+bottom: 0;
+right: 0;
+left: 0;
+width: 100%;
+
+}
+
+footer aside {
+display: block;
+top: 8px;
+text-align: center;
+width: 100%;
+position: absolute;
+
+}
+
+
+.footer-bar {
+top: 35px;
+text-align: center;
+width: 100%;
+position: absolute;
+}
+
+#currentdate {
+display: block;
+text-align: center;
+}
+
+
+
+}
+
