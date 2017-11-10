@@ -1,0 +1,85 @@
+
+table {
+    font-family: ubuntu, sans-serif;
+}
+
+table, th, td {
+border: 1px solid lightgray;
+border-collapse: collapse;
+padding: 7px;
+text-align: center;
+}
+
+caption {
+    height: 40px;
+    background-color: #7fb9c2;
+    padding: 5px;
+}
+
+table h1 {
+    line-height: 75px;
+    margin-top: -15px;
+    font-size: 150%;
+}
+
+table, caption {
+    box-shadow: 10px 10px 24px #628ca6;
+}
+
+
+
+/* #628ca6 for cell titles
+
+
+*/
+
+th:nth-child(2) {
+    font-weight: 200;
+}
+
+thead tr:nth-child(1) th:nth-child(2) {
+    font-weight: 700;
+}
+
+th:nth-child(2) {
+    text-emphasis: normal;
+}
+
+tr:nth-child(even), tbody tr:nth-child(1) {
+    background-color: #e7f0ed;
+}
+
+tr:nth-child(odd) {
+    background-color: #e7ffed;
+}
+
+tr th {
+    background-color: #628ca6;
+    color: floralwhite;
+}
+
+tbody th {
+    background-color: #e7f0ed;
+    color: black;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+
+tr:nth-child(3) td:nth-child(3) {
+    background-color: #628ca6;
+    color: floralwhite;
+}
+
+tfoot {
+   color: black;
+   font-size: 68%;
+
+}
+
+tfoot th {
+    color: black;
+    font-weight: 100;
+    background-color: #7fb9c2;
+}

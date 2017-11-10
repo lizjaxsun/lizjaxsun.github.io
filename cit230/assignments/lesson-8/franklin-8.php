@@ -1,48 +1,29 @@
+<!DOCTYPE html>
+
+
 <html lang="en-us">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title></title>
-    <meta name="Elizabeth Jackson" content="tether the Weather">
-    <meta name="description" content="be prepared and confident for current, past, and future weather conditions in our towns!">
-    <!-- external style references in the proper cascading order -->
-    <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">
-    <!-- Google API font reference -->
-    <link href="styles/normalize.css" rel="stylesheet" type="text/css">
-    <!-- normalize useragent/browser defaults -->
-    <link href="styles/main-5.css" rel="stylesheet" type="text/css">
-    <!-- default styles - small/phone views -->
-    <link href="styles/medium-5.css" rel="stylesheet" type="text/css">
-    <!-- medium/tablet views -->
-    <link href="styles/large-5.css" rel="stylesheet" type="text/css">
-    <!-- large/wide/desktop views -->
+    <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/head-8.php'; ?>
 </head>
 
 <body>
 
     <header>
-        <img src="/assignments/lesson-5/images/Weather-Blog-Image.jpg" alt="Weathery picture home page for Tether the Weather" width="" height="">
-        <h1>Tether The Weather</h1>
-        <div class="subheading">Your unsurety will be weathered down for complete confidence in a days outlook</div>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/header-8.php'; ?>
     </header>
 
     <!-- site navigation use placeholder references -->
     <nav>
-        <button class="ham-menu" onclick="toggleNavMenu()">&#9776;</button>
-        <ul class="navigation">
-            <li><a href="#">Home</a></li>
-            <li class="active"><a href="/cit230/assignments/lesson-5/franklin-5.html">Franklin</a></li>
-            <li><a href="#">Greenville</a></li>
-            <li><a href="#">StormCenter</a></li>
-            <li><a href="#">Gallery</a></li>
-        </ul>
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/nav-8.php'; ?>
     </nav>
 
     <main>
-        <h2>The City of Franklin</h2>
+        <h2>The City of Franklin</h2> <br> <br> <br>
         <figure>
-            <img src="images/city.jpg" alt="At dusk, city lights glimmer upon tall and seamless buildings with a colorful sky">
+            <img class="large" src="/cit230/assignments/lesson-6/images/city-large.jpg" alt="At dusk, city lights glimmer upon tall and seamless buildings with a colorful sky">
+            <img class="medium" src="/cit230/assignments/lesson-6/images/city-medium.jpg" alt="At dusk, city lights glimmer upon tall and seamless buildings with a colorful sky">
+            <img class="small" src="/cit230/assignments/lesson-6/images/city-small.jpg" alt="At dusk, city lights glimmer upon tall and seamless buildings with a colorful sky">
         </figure>
         <section>
             <h3>Weather Summary</h3>
@@ -51,9 +32,14 @@
                 <p>Low:</p>
             </div>
             <div class="current">
-                Sunny
-                <picture>
-                    <img src="images/#" alt="" width="" height="">
+                <p>Sunny</p>
+                <picture class="contain">
+                    <img class="large" src="/cit230/assignments/lesson-6/images/franklin-large.jpg" alt="">
+                    <h2 class="large" id="large-txt"> Large </h2>
+                    <img class="medium" src="/cit230/assignments/lesson-6/images/franklin-medium.jpg" alt="">
+                    <h2 class="medium" id="medium-txt"> Medium </h2>
+                    <img class="small" src="/cit230/assignments/lesson-6/images/franklin-small.jpg" alt="">
+                    <h2 class="small" id="small-txt"> Small </h2>
                 </picture>
             </div>
             <div class="conditions">
@@ -61,12 +47,26 @@
                 <p>Wind Speed:</p>
             </div>
         </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <section class="windchill">
+            <div class="form">
+                Enter a the Windchill rate (with 3-digits) : <br> <input type="text" id="aNum" maxlength="3" size="1">
+                <input type="submit" onclick="computeNum()" value="Run Calculation">
+                <div id="output">Output Placeholder</div>
+            </div>
+        </section>
 
         <section class="forecast">
             <h3>10 Day Forecast</h3>
             <table>
 
-                   <thead>
+                <thead>
                     <tr>
                         <th>Day 1</th>
                         <th>Day 2</th>
@@ -116,11 +116,8 @@
 
     </main>
 
-    <footer>
-        <aside>
-            Contact information placeholder
-        </aside>
-        <p class="footer-bar">&copy;2017 All Rights Reserved | Tether the Weather | <span id="currentdate">Current Date Placeholder</span></p>
+    <footer class="container">
+        <?php include $_SERVER['DOCUMENT_ROOT'].'/modules/footer-8.php'; ?>
     </footer>
 
     <script src="scripts/hamburger.js"></script>
