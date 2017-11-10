@@ -4,26 +4,26 @@ table {
 }
 
 table, th, td {
-border: 1px solid lightgray;
+border: 1 solid lightgray;
 border-collapse: collapse;
-padding: 7px;
+padding: 7;
 text-align: center;
 }
 
 caption {
-    height: 40px;
+    height: 40;
     background-color: #7fb9c2;
-    padding: 5px;
+    padding: 5;
 }
 
 table h1 {
-    line-height: 75px;
-    margin-top: -15px;
+    line-height: 75;
+    margin-top: -15;
     font-size: 150%;
 }
 
 table, caption {
-    box-shadow: 10px 10px 24px #628ca6;
+    box-shadow: 10 10 24 #628ca6;
 }
 
 
