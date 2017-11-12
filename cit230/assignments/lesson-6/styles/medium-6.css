@@ -114,9 +114,62 @@ nav button { display:none; }  /* hamburger button does not need to be shown */
 
     }
 
+
     section {
         position: relative;
         color: E8503A;
+    }
+
+    #franklin-article {
+        position: relative;
+        top: 27;
+        color: #E8503A;
+        text-align-last: center;
+    }
+
+    section.forecast {
+        background-color: lightslategray;
+        position: relative;
+        border-color: #182F3B;
+        text-align: center;
+        max-width: 890px;
+        height: 200;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .forecast h3 {
+        margin-bottom: 0;
+        color: #182F3B
+    }
+
+    section.forecast, th, td {
+        position: relative;
+        border-color: aqua;
+        padding: 0;
+        left: -1%;
+        column-rule-style: ridge;
+        border: 2px solid aqua;
+        color: #00E5BA;
+        background-color: ;
+        max-width: 890px;
+    }
+
+    th, td {
+        font-size: 15;
+        text-align-last: center;
+        border-color: aqua;
+        background-color: #182F3B;
+        width: 180px;
+        padding: 5;
+        right: 0;
+        left: 0;
+    }
+
+    section th {
+        text-decoration-line: underline;
     }
 
     #franklin-article {

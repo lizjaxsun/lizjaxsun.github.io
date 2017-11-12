@@ -222,6 +222,11 @@ text-decoration: none;
 width: 100%;
 }
 
+section.forecast {
+        display: none;
+    }
+
+
     main h2 {
         top: 35px;
     }
@@ -336,30 +341,6 @@ clear: left;
 margin: auto;
 }
 
-
-section.forecast {
-position: relative;
-text-decoration-line: underline;
-border-color: #00E5BA;
-display: none;
-}
-
-section.forecast, th, td {
-border-color: aqua;
-padding: 0;
-left: -1%;
-column-rule-style: ridge;
-border: 2px solid #E8503A;
-background-color: B2121D;
-color: #00E5BA;
-}
-
-th, td {
-font-size: 14;
-text-align-last: center;
-width: 134;
-padding:
-}
 
 .conditions {
     display: block;

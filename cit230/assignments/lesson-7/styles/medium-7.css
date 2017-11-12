@@ -144,10 +144,19 @@ main figure img {
 
 }
 
-section {
-position: relative;
-color: E8503A;
-}
+    section {
+        position: relative;
+        color: E8503A;
+    }
+
+    #franklin-article {
+        position: relative;
+        top: 27;
+        color: #E8503A;
+        text-align-last: center;
+    }
+
+
 
 
 

@@ -96,26 +96,48 @@ nav button { display:none; }  /* hamburger button does not need to be shown */
     }
 
     section.forecast {
+        background-color: lightslategray;
         position: relative;
-        text-decoration-line: underline;
-        border-color: #00E5BA;
+        border-color: #182F3B;
+        text-align: center;
+        max-width: 890px;
+        height: 200;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .forecast h3 {
+        margin-bottom: 0;
+        color: #182F3B
     }
 
     section.forecast, th, td {
+        position: relative;
         border-color: aqua;
         padding: 0;
         left: -1%;
         column-rule-style: ridge;
-        border: 2px solid #E8503A;
-        background-color: B2121D;
+        border: 2px solid aqua;
         color: #00E5BA;
+        background-color: ;
+        max-width: 890px;
     }
 
     th, td {
-        font-size: 14;
+        font-size: 15;
         text-align-last: center;
-        width: 134;
-        padding:
+        border-color: aqua;
+        background-color: #182F3B;
+        width: 180px;
+        padding: 5;
+        right: 0;
+        left: 0;
+    }
+
+    section th {
+        text-decoration-line: underline;
     }
 
     article p.town-article img {

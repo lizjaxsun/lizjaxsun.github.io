@@ -153,6 +153,10 @@ position: relative;
 color: E8503A;
 }
 
+section.forecast {
+    display: none;
+}
+
 #franklin-article {
 position: relative;
 top: 27;
@@ -170,34 +174,9 @@ margin: auto;
 }
 
 
-section.forecast {
-position: relative;
-text-decoration-line: underline;
-border-color: #00E5BA;
-display: none;
-}
-
-section.forecast, th, td {
-border-color: aqua;
-padding: 0;
-left: -1%;
-column-rule-style: ridge;
-border: 2px solid #E8503A;
-background-color: B2121D;
-color: #00E5BA;
-}
-
-th, td {
-font-size: 14;
-text-align-last: center;
-width: 134;
-padding:
-}
-
-
 footer {
 display: block;
-background-color: E8503A;
+background-color: #E8503A;
 position: relative;
 top: 230;
 width: 100%;

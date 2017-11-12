@@ -241,6 +241,10 @@ text-decoration: none;
 width: 100%;
 }
 
+ section.forecast {
+        display: none;
+    }
+
 main h2 {
 top: 35px;
 }
@@ -311,11 +315,13 @@ display: block;
 background-color: fuchsia;
 margin: 1rem; color:#0F415C;
 text-decoration-color: aliceblue;
+
 }
 
 .windchill .form {
 background-color:#0F415C; padding: 1rem; border:1px solid #eee;
 text-decoration-color: aliceblue;
+
 }
 
 .windchill div {
@@ -355,30 +361,6 @@ clear: left;
 margin: auto;
 }
 
-
-section.forecast {
-position: relative;
-text-decoration-line: underline;
-border-color: #00E5BA;
-display: none;
-}
-
-section.forecast, th, td {
-border-color: aqua;
-padding: 0;
-left: -1%;
-column-rule-style: ridge;
-border: 2px solid #E8503A;
-background-color: B2121D;
-color: #00E5BA;
-}
-
-th, td {
-font-size: 14;
-text-align-last: center;
-width: 134;
-padding:
-}
 
 .conditions {
 display: block;
