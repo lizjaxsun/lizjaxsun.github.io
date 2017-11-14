@@ -77,21 +77,24 @@ margin-left: 20%;
     main div:hover {box-shadow 5px 5px 10px}
 
 
-header h1{
-display: block;
-position: absolute;
-top: 60px;
-}
+    header h1{
+        left: 0;
+        right: 0;
+        width: 400px;
+    }
 
 
-header .subheading {
-display: block;
-position: absolute;
-max-width: 400px;
-text-align: center;
-top: -320px;
+    header .subheading {
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 400px;
+        top: -82px;
+        height: 50px;
+    }
 
-}
 
 
 nav {
