@@ -33,101 +33,37 @@ header img {
     position: relative;
     background-size: 100%;
     display: block;
+    padding: 0 0;
     margin: auto;
     text-align: center;
     width: 100%;
-
+    text-align: center;
 }
 
-header {
-    display: block;
-    top: 364;
-}
 
 header h1 {
     position: absolute;
     display: block;
-    margin: auto;
-    left: 0;
-    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 42px;
     height: 50px;
     width: 335px;
-    padding: 3;
+    padding: 12;
     color: aqua;
     font-family: tahoma;
     text-align: center;
 }
 
 header .subheading {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 50px;
-    padding: 3;
-    max-width: 400px;
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    top: -84px;
+    padding: 6;
     font-weight: bolder;
 }
-
-div p { text-align: center;}
-
-/*
-
-header h1 {
-display: block;
-color: aqua;
-position: relative;
-line-height: 100px;
-text-align: center;
-top: -160px;
-
-}
-
-header .subheading {
-position: relative;
-display: block;
-left: 0;
-right: 0;
-height: 60px;
-text-align: center;
-margin: 0 auto;
-top: -212px;
-width: 280px;
-
-
-}
-
-
-
-
-header h1 {
-position: absolute;
-margin: 0;
-top: 60;
-left: 0;
-right: 0;
-bottom: 425;
-height: 50px;
-width: 100%;
-padding: 3;
-color: aqua;
-font-family: tahoma;
-text-align: center;
-}
-
-header .subheading {
-display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: -90px;
-height: 65px;
-width: 280;
-padding: 4px;
-}
-
-*/
 
 @media only screen and (max-width: 430px) {
 
