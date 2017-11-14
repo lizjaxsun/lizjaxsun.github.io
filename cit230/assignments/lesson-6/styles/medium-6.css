@@ -44,15 +44,20 @@ nav button { display:none; }  /* hamburger button does not need to be shown */
 
     header img {
         min-width: 100%
-            top: 40px;
     }
 
     header h1 {
-        bottom: 420px;
+        position: absolute;
+        top: 42px;
     }
 
     header .subheading {
-        bottom: 343px;
+        position: relative;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 350px;
+        top: -84px;
 
     }
 

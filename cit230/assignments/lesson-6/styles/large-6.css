@@ -32,15 +32,20 @@ header img {
 
 
 header h1{
-    display: relative;
-    bottom: 420px;
+    display: block;
+    position: absolute;
+    top: 42px;
+
 }
 
 
 header .subheading {
-    display: relative;
-    bottom: 340px;
-    position: absolute;
+    display: block;
+    position: relative;
+    width: 380px;
+    margin-left: auto;
+    margin-right: auto;
+    top: -84px;
     }
 
 

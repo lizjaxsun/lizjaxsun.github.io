@@ -45,11 +45,11 @@ text-align: center;
 header h1 {
     position: absolute;
     display: block;
-    margin: auto;
-    top: 62;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -35px;
     left: 0;
     right: 0;
-    height: 50px;
     width: 335px;
     padding: 3;
     color: aqua;
@@ -61,15 +61,13 @@ header h1 {
 
 
 header .subheading {
-    position: absolute;
-    margin: auto;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    display: block;
+    position: sticky;
+    margin-left: auto;
+    margin-right: auto;
     height: 50px;
-    max-width: 280;
     padding: 3;
+    text-align: center;
 }
 
 /*
