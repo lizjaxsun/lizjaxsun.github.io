@@ -1,0 +1,18 @@
+header img {
+height: 200;
+position: relative;
+display: block;
+
+}
+
+
+header h1{
+bottom: 378;
+
+}
+
+
+header .subheading {
+bottom: 300;
+position: absolute;
+}

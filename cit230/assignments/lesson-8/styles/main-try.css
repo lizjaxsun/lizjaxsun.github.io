@@ -1,0 +1,43 @@
+header {
+    background-image: image(header image());
+    text-align: center;
+}
+
+header img {
+    height: 180px;
+    position: relative;
+    background-size: 100%;
+    display: block;
+    padding: 0 0;
+    margin: auto;
+    text-align: center;
+    width: 100%;
+    text-align: center;
+}
+
+header h1 {
+position: absolute;
+margin: auto;
+top: -25;
+left: 0;
+right: 0;
+bottom: 425;
+height: 50px;
+width: 335px;
+padding: 3;
+color: aqua;
+font-family: tahoma;
+text-align: center;
+}
+
+header .subheading {
+position: absolute;
+margin: auto;
+top: -25;
+left: 0;
+right: 0;
+bottom: 340;
+height: 50px;
+width: 280;
+padding: 3;
+}
