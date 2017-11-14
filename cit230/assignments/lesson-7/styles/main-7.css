@@ -66,8 +66,8 @@ header .subheading {
     right: 0;
     bottom: 0;
     height: 50px;
-    max-width: 280;
     padding: 3;
+    max-width: 400px;
     font-weight: bolder;
 }
 
