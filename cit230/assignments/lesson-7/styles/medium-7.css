@@ -32,7 +32,11 @@ width: 93%;
 
     p {
         text-align: center;
+        color: black;
     }
+
+    h2 { display: block;
+         margin-bottom: 0;}
 
 @media only screen and (max-width: 670px) {
 
@@ -146,7 +150,7 @@ main figure img {
 
     section {
         position: relative;
-        color: E8503A;
+        color: #E8503A;
     }
 
     #franklin-article {
