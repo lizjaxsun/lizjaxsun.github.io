@@ -78,17 +78,19 @@ margin-left: 20%;
 
 
 header h1{
-display: relative;
-bottom: 465px;
+display: block;
+position: absolute;
+top: 60px;
 }
 
 
 header .subheading {
-display: relative;
-bottom: 330px;
-max-width: 400px;
+display: block;
 position: absolute;
+max-width: 400px;
 text-align: center;
+top: -320px;
+
 }
 
 
