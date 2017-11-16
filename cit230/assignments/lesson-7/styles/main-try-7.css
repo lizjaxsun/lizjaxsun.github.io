@@ -311,9 +311,12 @@ position: absolute;
 .windchill {
 display: block;
 background-color: fuchsia;
-margin: 1rem; color:#0F415C;
+color:#0F415C;
 text-decoration-color: aliceblue;
-
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 2rem;
+max-width: 890px;
 }
 
 .windchill .form {
@@ -331,7 +334,9 @@ color: aliceblue;
 div input {
 background-color:cadetblue;
 border: 1px solid #eee;
-padding-left: 30px;
+text-align: center;
+padding-right: 15px;
+padding-left: 15px
 }
 
 .windchill #aNum {

@@ -160,7 +160,6 @@ color: #E8503A;
         display: block;
         margin-left: auto;
         margin-right: auto;
-
     }
 
     .forecast h3 {
@@ -171,8 +170,7 @@ color: #E8503A;
     section.forecast, th, td {
         position: relative;
         border-color: aqua;
-        padding: 0;
-        left: -1%;
+        padding: 1;
         column-rule-style: ridge;
         border: 2px solid aqua;
         color: #00E5BA;
@@ -224,6 +222,14 @@ picture img .medium {
 display: relative;
 }
 
+    .windchill .form {
+        max-width: 890px;
+    }
+
+    .windchill div {
+        max-width: 890px;
+    }
+
 footer {
 display: block;
 background-color: #E8503A;
@@ -232,8 +238,6 @@ bottom: 0;
 right: 0;
 left: 0;
 width: 100%;
-
-
 }
 
 footer aside {
