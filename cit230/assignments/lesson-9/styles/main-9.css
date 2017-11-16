@@ -69,6 +69,7 @@ header .subheading {
 .form {
     max-width: 800;
     margin: 2rem auto;
+    margin-top: -50px;
     border: 2px solid #182F3B;
     padding: 2rem;
     background-color: cadetblue;
@@ -91,7 +92,7 @@ label {
   width: 87%;
   border: 2px solid #182F3B;
   max-width: 800px;
-  padding: 3px;
+  padding: 4px;
 }
 
 .input-line:hover {
