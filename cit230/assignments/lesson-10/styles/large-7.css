@@ -1,0 +1,177 @@
+@media only screen and (min-width: 1024px) {
+/* Only CSS rules that need to be changed to meet the layout needs from medium to large/wide go in here WAS 64em */
+
+article p.town-article img { width: 29.333%; }
+
+nav button { display: none;}
+
+header img {
+height: 200;
+position: relative;
+display: block;
+}
+
+.small { display: none; }
+
+.medium { display: none;}
+
+.large {
+display: relative;
+width: 680px;
+margin-left: 20%;
+}
+
+
+
+    /*
+    p {
+        display: box;
+        position: absolute;
+        width: 30%;
+        margin-left: 34px;
+        bottom: 280px;
+    }
+
+    .wordsb {
+        margin-right: 0;
+
+    }
+
+
+    main div p .a {
+        left: 50px;
+    }
+    */
+
+    main img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .grid-medium { display: none}
+
+    .grid-small {display: none}
+
+    .grid {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
+        grid-column-gap: 10px;;
+        grid-row-gap: 0px;
+        justify-content: center;
+        padding: 30px;
+        padding-bottom: 100px;
+    }
+
+    p {
+        text-align: center;
+    }
+
+    main div {margin: .5rem;}
+
+    img {margin-right: 1rem;}
+
+    div img:hover {box-shadow: 20px 15px 10px;
+    color: black;}
+
+    main div:hover {box-shadow 5px 5px 10px}
+
+
+    header h1{
+        left: 0;
+        right: 0;
+        width: 400px;
+    }
+
+
+    header .subheading {
+        display: block;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        width: 400px;
+        top: -82px;
+        height: 50px;
+    }
+
+
+
+nav {
+display: block;
+position: fixed;
+color: aqua;
+}
+
+nav ul {
+position: fixed;
+top: 0;
+width: 100%;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #00B9A7;
+
+}
+
+nav ul li {
+display: inline;
+float: left;
+width: 20%;
+}
+
+nav ul li a {
+display: block;
+color: #0F415C;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+nav ul li.active a {
+background-color: #33697F;
+}
+
+nav ul li a:hover {
+background-color: #111;
+}
+
+
+
+footer {
+display: block;
+background-color: #E8503A;
+position: relative;
+bottom: 0;
+right: 0;
+left: 0;
+width: 100%;
+
+}
+
+footer aside {
+display: block;
+top: 8px;
+text-align: center;
+width: 100%;
+position: absolute;
+
+}
+
+
+.footer-bar {
+top: 35px;
+text-align: center;
+width: 100%;
+position: absolute;
+}
+
+#currentdate {
+display: block;
+text-align: center;
+}
+
+
+
+}
+

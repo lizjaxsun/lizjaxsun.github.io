@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+
+<html lang="en-us">
+
+<head w3-include-html="modules/head-9.html">
+    <link href="/assignments/lesson-9/styles/main-9.css" rel="stylesheet" type="text/css">
+    <title>Franklin Page</title>
+</head>
+
+<body>
+
+    <header w3-include-html="modules/header-9.html">
+    </header>
+
+    <!-- site navigation use placeholder references -->
+    <nav w3-include-html="modules/nav-9.html">
+
+    </nav>
+
+    <main>
+        <h2>Enter a Storm Report</h2> <br> <br> <br>
+
+        <form action="modules/thanks.html" class="form">
+            <label for="name">Full Name:</label>
+            <input type="text" name="name" required class="input-line"><br>
+            <label for="email">e-mail:</label>
+            <input type="email" name="e-mail" class="input-line">
+            <label for="phone">Number:</label>
+            <input type="tel" name="phone" required placeholder="###-###-###" class="input-line"> <br>
+            <label for="zip">Zip code:</label>
+            <input type="number" name="zip" class="input-line" required>
+
+            <label for="storm-type">Type of Storm:</label>
+            <input list="storm-type" name="storm-type" class="input-line">
+            <datalist id="storm-type">
+               <option value="Flash Flood">
+               <option value="Hail">
+               <option value="Hurricane">
+               <option value="Thunderstorm">
+               <option value="Tornado">
+            </datalist>
+            <label for="theDate">Date:</label>
+            <input type="date" name="date" id="date"> <br>
+
+            <label for="severity">Rate Storm Severity Level from 1 to 10:</label>
+            <input type="range" id="severity" name="severity" value="5" min="1" max="10" step="1" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)"> <span id="ratingvalue">5</span> <br>
+            <select name="storm-area" size="2">
+                <option value="Select Region..." disabled>Select Region...</option>
+                <option value="Franklin">Franklin</option>
+                <option value="Greenville">Greenville</option>
+                <option value="Springfield">Springfield</option>
+            </select>
+            <label for="danger">Are you currently in the storm's danger-level area?</label>
+            <radio>
+            <input type="radio" name="danger" value="yes"> Yes<br>
+            <input type="radio" name="danger" value="maybe"> Maybe <br>
+            <input type="radio" name="danger" value="no"> No <br>
+            </radio>
+            <legend>Include any additional comments or notes:</legend>
+            <textarea name="comment" id="comment" cols="70" rows="10" placeholder="Start typing any additional information you'd like us to know..."></textarea>
+            <div>
+            <input type="submit">
+            </div>
+        </form>
+
+    </main>
+
+    <footer class="container" w3-include-html="modules/footer-9.html">
+    </footer>
+
+    <script src="scripts/w3.js"></script>
+    <script src="scripts/modularize.js"></script>
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/wayfind.js"></script>
+
+
+</body>
+
+</html>

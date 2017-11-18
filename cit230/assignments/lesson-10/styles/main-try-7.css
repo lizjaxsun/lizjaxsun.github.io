@@ -1,0 +1,406 @@
+/* This main css file contains the default rules and is geared toward the small/phone view */
+
+* {
+box-sizing: border-box;
+
+}
+
+
+/* This wildcard applies to all elements ensuring a box layout model */
+
+body {
+background-color: #33647F;
+font-family: 'Lora', serif;
+font-size: 16px;
+padding-left: none;
+margin-left: none;
+/* Declare the base font-family - from google font api or other */
+}
+
+header,
+nav,
+main,
+footer {
+/* the comma means apply the following CSS declarations to all of the listed elements */
+/* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+header {
+background-image: image(header image());
+}
+
+header img {
+height: 180px;
+position: relative;
+background-size: 100%;
+display: block;
+padding: 0 0;
+margin: auto;
+text-align: center;
+width: 100%;
+text-align: center;
+}
+
+
+header h1 {
+position: absolute;
+display: block;
+margin-left: auto;
+margin-right: auto;
+top: 42px;
+height: 50px;
+width: 335px;
+padding: 12;
+color: aqua;
+font-family: tahoma;
+text-align: center;
+}
+
+header .subheading {
+position: relative;
+display: block;
+margin-right: auto;
+margin-left: auto;
+top: -84px;
+padding: 6;
+font-weight: bolder;
+}
+
+
+
+/*
+
+header h1 {
+display: block;
+color: aqua;
+position: relative;
+line-height: 100px;
+text-align: center;
+top: -160px;
+
+}
+
+header .subheading {
+position: relative;
+display: block;
+left: 0;
+right: 0;
+height: 60px;
+text-align: center;
+margin: 0 auto;
+top: -212px;
+width: 280px;
+
+
+}
+
+
+
+
+header h1 {
+position: absolute;
+margin: 0;
+top: 60;
+left: 0;
+right: 0;
+bottom: 425;
+height: 50px;
+width: 100%;
+padding: 3;
+color: aqua;
+font-family: tahoma;
+text-align: center;
+}
+
+header .subheading {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: -90px;
+height: 65px;
+width: 280;
+padding: 4px;
+}
+
+*/
+
+
+@media only screen and (max-width: 430px) {
+
+.large {display: none;}
+
+.medium {display: none;}
+
+picture img {
+display: relative;
+width: 100%;
+}
+
+div picture h2 {
+display: absolute;
+bottom: 640px;
+top: -175px;
+line-height: 6.3;
+text-align: center;
+color: black;
+}
+
+header h1 {
+bottom: 500px;
+width: 335px;
+margin-bottom: -30px;
+margin-right: auto;
+margin-left: auto;
+left: 0;
+right: 0;
+height: 50px;
+width: 335px;
+padding: 3;
+color: aqua;
+font-family: tahoma;
+text-align: center;
+}
+
+header .subheading {
+bottom: 370px;
+width: 280px;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: auto;
+left: 0;
+right: 0;
+height: 50px;
+max-width: 280;
+padding: 3;
+text-align: center;
+}
+
+nav ul li a:hover {
+background-color: black;
+}
+
+header img {
+top: 0px;
+}
+
+header nav {
+float: none;
+width: 100%;
+padding: 0;
+}
+
+nav button {
+display: block;
+height: 51px;
+width: 100%;
+background-color: #E8503A;
+cursor: pointer;
+position: absolute;
+top: 188px;
+}
+
+.responsive {
+position: relative;
+}
+
+.responsive li {
+display: block;
+}
+
+nav ul {
+overflow: hidden;
+position: relative;
+background: #182F3B;
+padding-bottom: 254;
+top: 35px;
+height: 0;
+line-height: 30px;
+}
+
+
+nav ul li {
+display: block;
+width: 100%;
+margin: 2px 0;
+padding-bottom: 10px black;
+border-bottom: solid black;
+text-align: center;
+list-style-type: none;
+}
+
+nav ul li a {
+display: block;
+color: aqua;
+padding: 8px;
+border-bottom: 0.1px solid black;
+margin: 0;
+text-decoration: none;
+width: 100%;
+}
+
+ section.forecast {
+        display: none;
+    }
+
+main h2 {
+top: 35px;
+}
+
+}
+
+main {
+position: relative;
+bottom: -35;
+padding: 0;
+}
+
+main h2 {
+position: relative;
+color: #E8503A;
+}
+
+main figure {
+margin: 0 0 .2rem 2%;
+width: 96%;
+}
+
+main figure img {
+position: relative;
+width: 100%;
+height: 200px
+}
+
+section {
+position: relative;
+color: #E8503A;
+}
+
+/*
+
+.contain, .small {
+position: relative;
+width: 100%;
+}
+
+#small-txt   {
+color:black;
+display: absolute;
+width: 100%;
+line-height: 550%;
+bottom: 152;
+text-align: center;
+}
+
+.large {
+display: none;
+}
+
+.medium {
+display: none;
+}
+
+*/
+
+
+.conditions {
+display: block;
+position: absolute;
+}
+
+.windchill {
+display: block;
+background-color: fuchsia;
+color:#0F415C;
+text-decoration-color: aliceblue;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 2rem;
+max-width: 890px;
+}
+
+.windchill .form {
+background-color:#0F415C; padding: 1rem; border:1px solid #eee;
+text-decoration-color: aliceblue;
+
+}
+
+.windchill div {
+background-color:#0F415C; padding: 1rem; border:1px solid;
+color: aliceblue;
+
+}
+
+div input {
+background-color:cadetblue;
+border: 1px solid #eee;
+text-align: center;
+padding-right: 15px;
+padding-left: 15px
+}
+
+.windchill #aNum {
+border:1px solid #eee; background-color: #eee; text-align:center;
+
+}
+
+section div div {
+margin-top: 8px;
+}
+
+#franklin-article {
+position: relative;
+top: 27;
+color: #E8503A;
+}
+
+article p.town-article img {
+/* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+float: left;
+width: 330;
+height: 150;
+clear: left;
+/* fill the page in the small/phone view */
+margin: auto;
+}
+
+
+.conditions {
+display: block;
+position: absolute;
+}
+
+
+footer {
+display: block;
+background-color: #E8503A;
+position: relative;
+top: 230;
+width: 100%;
+height: 98px;
+}
+
+footer aside {
+text-align: center;
+width: 100%;
+position: absolute;
+}
+
+.footer-bar {
+display: block;
+top: 30px;
+position: absolute;
+text-align: center;
+
+}
+
+footer>p {
+position: absolute;
+font-variant-position: center;
+text-align-last: center;
+}
+
+/* This structure refers to p elements that are direct children of the footer element */
+
+
+/* Other Class Selectors */
