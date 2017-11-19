@@ -47,10 +47,6 @@ text-align: center;
 color: black;
 }
 
-
-
-
-
 nav {
 display: block;
 position: fixed;
@@ -139,7 +135,6 @@ background-color: #111;
     }
 
 
-
 footer {
 display: block;
 background-color: #E8503A;
@@ -159,7 +154,6 @@ width: 100%;
 position: absolute;
 
 }
-
 
 .footer-bar {
 top: 35px;
