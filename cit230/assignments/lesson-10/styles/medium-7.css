@@ -46,6 +46,7 @@ width: 93%;
 
     }
 
+
 @media only screen and (min-width: 760px) {
 
 
@@ -169,7 +170,6 @@ main figure img {
 .container {
 position: relative;
 }
-
 
 footer {
 display: block;

@@ -119,6 +119,18 @@ background-color: #33697F;
 nav ul li a:hover {
 background-color: #111;
 }
+
+    main section{
+        display: block;
+        border: solid 1px black;
+        padding: 7px;
+        margin-left: auto;
+        margin-right: auto;
+        width: 500px;
+        line-height: 12px;
+    }
+
+
     @media only screen and (max-width: 650px) {
 
         nav ul li {
@@ -239,8 +251,13 @@ picture img .medium {
 display: relative;
 }
 
+    .windchill {
+        margin-bottom: 50px;
+    }
+
     .windchill .form {
         max-width: 890px;
+
     }
 
     .windchill div {
