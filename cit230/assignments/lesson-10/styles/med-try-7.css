@@ -128,6 +128,14 @@ background-color: #111;
         }
     }
 
+main figure p {
+        display: block;
+        max-width: 680px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
 main {
 position: relative;
 bottom: -35;
