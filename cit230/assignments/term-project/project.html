@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+
+
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <meta name="Elizabeth Jackson" content="Mountain Spoke Services">
+    <meta name="description" content="be prepared and confident for current, past, and future weather conditions in our towns!">
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <!-- external style references in the proper cascading order -->
+    <link href="https://fonts.googleapis.com/css?family=#" rel="stylesheet">
+    <!-- Google API font reference -->
+    <link href="/cit230/assignments/term-project/styles/normalize.css" rel="stylesheet" type="text/css">
+    <!-- normalize useragent/browser defaults -->
+    <link href="/cit230/assignments/term-project/styles/main.css" rel="stylesheet" type="text/css">
+    <!-- default styles - small/phone views -->
+    <link href="/cit230/assignments/term-project/styles/med.css" rel="stylesheet" type="text/css">
+    <!-- medium/tablet views -->
+    <link href="/cit230/assignments/term-project/styles/large.css" rel="stylesheet" type="text/css">
+    <!-- large/wide/desktop views -->
+</head>
+
+<body>
+
+    <header>
+        <img src="/cit230/assignments/lesson-6/images/larger/Weather-Blog-Image-min.jpg" alt="Weathery picture home page for Tether the Weather" width="" height="">
+        <h1>The Mountain Spoke</h1>
+        <div class="subheading">We'll give you the best biking experience</div>
+    </header>
+
+    <!-- site navigation use placeholder references -->
+    <nav>
+        <button onclick="toggleNavMenu()">&#9776;</button>
+        <ul class="responsive">
+            <li><a href="#">Events</a></li>
+            <li><a href="/cit230/assignments/lesson-7/franklin-7.html">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Adventure Tours</a></li>
+            <li><a href="/cit230/assignments/lesson-7/gallery-7.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>The City of Franklin</h2> <br> <br> <br>
+        <figure>
+            <img class="large" src="/cit230/assignments/lesson-6/images/city-large.jpg" alt="At dusk, city lights glimmer upon tall and seamless buildings with a colorful sky">
+            <img class="medium" src="/cit230/assignments/lesson-6/images/city-medium.jpg" alt="At dusk, city lights glimmer upon tall and seamless buildings with a colorful sky">
+            <img class="small" src="/cit230/assignments/lesson-6/images/city-small.jpg" alt="At dusk, city lights glimmer upon tall and seamless buildings with a colorful sky">
+        </figure>
+        <section>
+            <h3>Weather Summary</h3>
+            <div class="highlow">
+                <p>High:</p>
+                <p>Low:</p>
+            </div>
+            <div class="current">
+                <p>Sunny</p>
+                <picture class="contain">
+                    <img class="large" src="/cit230/assignments/lesson-6/images/franklin-large.jpg" alt="">
+                    <h2 class="large" id="large-txt"> Large </h2>
+                    <img class="medium" src="/cit230/assignments/lesson-6/images/franklin-medium.jpg" alt="">
+                    <h2 class="medium" id="medium-txt"> Medium </h2>
+                    <img class="small" src="/cit230/assignments/lesson-6/images/franklin-small.jpg" alt="">
+                    <h2 class="small" id="small-txt"> Small </h2>
+                </picture>
+            </div>
+            <div class="conditions">
+                <p>Precipitation:</p>
+                <p>Wind Speed:</p>
+            </div>
+        </section>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <section class="windchill">
+            <div class="form">
+                Enter a the Windchill rate (with 3-digits) : <br> <input type="text" id="aNum" maxlength="3" size="1">
+                <input type="submit" onclick="computeNum()" value="Run Calculation">
+                <div id="output">Output Placeholder</div>
+            </div>
+        </section>
+
+        <section class="forecast">
+            <h3>10 Day Forecast</h3>
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Day 1</th>
+                        <th>Day 2</th>
+                        <th>Day 3</th>
+                        <th>Day 4</th>
+                        <th>Day 5</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>89&deg;F</td>
+                        <td>87&deg;F</td>
+                        <td>78&deg;F</td>
+                        <td>75&deg;F</td>
+                        <td>72&deg;F</td>
+                    </tr>
+                    <br>
+                </tbody>
+                <thead>
+                    <tr>
+                        <th>Day 6</th>
+                        <th>Day 7</th>
+                        <th>Day 8</th>
+                        <th>Day 9</th>
+                        <th>Day 10</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>72&deg;F</td>
+                        <td>79&deg;F</td>
+                        <td>83&deg;F</td>
+                        <td>85&deg;F</td>
+                        <td>89&deg;F</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <article id="franklin-article">
+            <h3>Franklin Breaks Record</h3>
+            <p class="town-article">
+                <img src="images/#" alt="" width="" height=""> short article content placeholder
+            </p>
+        </article>
+
+    </main>
+
+    <footer class="container">
+        <aside class="info">
+            Contact information placeholder
+        </aside>
+        <br>
+
+        <p class="footer-bar"> | &copy;2017 All Rights Reserved | Tether the Weather | <span id="currentdate">
+<script>
+var now = new Date();
+var days = new Array('Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday');
+var months = new Array('January','February','March','April','May','June','July','August','September','October','November','December');
+var date = ((now.getDate()<10) ? "0" : "")+ now.getDate();
+function fourdigits(number) {
+return (number < 1000) ? number + 1900 : number;
+}
+today =  days[now.getDay()] + ", " + date + " " +
+months[now.getMonth()] + " " +
+(fourdigits(now.getYear())) ;
+document.write(today);
+</script>
+</span></p>
+
+    </footer>
+
+    <script src="scripts/hamburger.js"></script>
+    <script src="scripts/currentdate.js"></script>
+
+</body>
+
+</html>
