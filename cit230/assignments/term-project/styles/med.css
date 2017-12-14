@@ -1,28 +1,118 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 26.5em) {
   /* Only CSS rules that need to be changed to meet the layout needs from small to medium go in here */
 
   nav button { display:none; }  /* hamburger button does not need to be shown */
 
   section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
 
-header h1 {
-    display: block;
-    position: absolute;
-    top: -15px;
-    right: 50%;
+    header h1 {
+        display: block;
+        right: 38%;
+        font-size: 45px;
+        width: 348px;
+        height: 100px;
+        line-height: 25px;
 
     }
 
-header .subheading {
-    display: block;
-    right: 50%;
+    header .subheading {
+        display: block;
+        top: 70px;
+        right: 43%;
     }
 
   article p.town-article img { width: 62.666%; float:right; }  /* responsive images */
 
-}
+    nav button {
+        display: none;
+    }
 
+
+    nav ul {
+        position: relative;
+        top: 0;
+        width: 100%;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #006BE5;
+
+    }
+
+    nav ul li {
+        display: inline;
+        float: left;
+        width: 20%;
+        text-align: center;
+    }
+
+    nav ul li a {
+        display: inherit;
+        color: #fff;
+        padding: 8px;
+        text-decoration: none;
+
+    }
+
+    nav ul li:nth-child(4) {
+        line-height: 39px;
+
+    }
+
+    nav ul li.active a {
+        background-color: #33697F;
+    }
+
+    nav ul li a:hover {
+        background-color: #111;
+    }
+
+
+        nav ul li:nth-child(odd) {
+            line-height: 39px;
+
+        }
+
+        nav ul li:nth-child(2) {
+            line-height: 39px;
+        }
+
+
+    @media only screen and (max-width: 45.6em) {
+
+
+        header h1 {
+            color: blue;
+        }
+
+        nav ul li a {
+            font-size: 87%;
+        }
+
+        nav ul li:nth-child(4) {
+            line-height: 20px;
+
+        }
+
+    }
+
+    @media only screen and (min-width: 40.17em) {
+
+        header h1 {
+            color: red;
+        }
+
+        nav ul li:nth-child(4) {
+            display: block;
+            line-height: 39px;
+
+        }
+
+    }
 
 header h1 {
     top: -15px;
+}
+
 }

@@ -3,13 +3,22 @@
 
   article p.town-article img { width: 29.333%; }
 
+    header h1 {
+        display: block;
+        right: 38%;
+        font-size: 45px;
+        width: 400px;
+        height: 100px;
+        line-height: 25px;
+
+    }
+
+    header .subheading {
+        display: block;
+        top: 70px;
+        right: 43%;
+    }
+
 }
 
-header h1 {
-    margin-left: 0;
-    left: 0;
-    font-size: 45px;
-    width: 400px;
-    height: 100px;
-    line-height: 25px;
-}
+
