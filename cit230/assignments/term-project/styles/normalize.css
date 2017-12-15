@@ -27,9 +27,17 @@ html {
 
 body {
   margin: 100px;
-  font-family: 'Questrial', 'sans-serif';
+  font-family: 'Spectral SC', serif;
 }
 
+p, td {
+    font-family: 'Questrial', 'sans-serif';
+}
+
+img {
+    margin-left: 20px;
+    margin-right: 20px;
+}
 /**
  * Add the correct display in IE 9-.
  */
