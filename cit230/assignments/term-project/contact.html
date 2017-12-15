@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title></title>
+        <meta name="author" content="Your Name Here">
+        <meta name="description" content="page description placeholder">
+        <!-- external style references in the proper cascading order -->
+        <link href="https://fonts.googleapis.com/css?family=Questrial|Spectral+SC" rel="stylesheet" type="text/css">
+        <!-- Google API font reference -->
+        <link href="styles/normalize.css" rel="stylesheet">
+        <!-- normalize useragent/browser defaults -->
+        <link href="styles/main.css" rel="stylesheet">
+        <!-- default styles - small/phone views -->
+        <link href="styles/med.css" rel="stylesheet">
+        <!-- medium/tablet views -->
+        <link href="styles/large.css" rel="stylesheet">
+        <!-- large/wide/desktop views -->
+        <link href="styles/events.css" rel="stylesheet" type="text/css">
+    </head>
+
+    <body>
+
+        <header>
+            <a href="home.html"> <img src="images/mounatin.png" alt="The site logo" width="" height=""></a>
+            <span><a href="home.html">
+                <h1>The Mountain Spoke</h1>
+                <div class="subheading">We'll give you the best bike experience</div>
+                </a>
+            </span>
+        </header>
+
+        <!-- site navigation use placeholder references -->
+        <nav>
+            <button onclick="toggleNavMenu()">&#9776;</button>
+            <ul class="responsive">
+                <li><a href="events.html">Events</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="adventure.html">Adventure Tours</a></li>
+                <li class="active"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main class="contact">
+
+            <h2>Feel Free To Contact Us </h2>
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.</p>
+
+            <section class="contact-info">
+            <strong>Our Adress:</strong> 3950 Valley Commons Drive, Bozeman MT 59718 <br>
+                <strong>Our Shop Number:</strong> 801-623-8895 <br>
+                <strong>Our Event Services Number:</strong> 801-652-1874 <br> <br>
+            </section>
+            <figure>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2787.948552113423!2d-111.09298598509064!3d45.671933127580104!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5345458559cf66a1%3A0x858c0351ba741919!2s3950+Valley+Commons+Dr%2C+Bozeman%2C+MT+59718!5e0!3m2!1sen!2sus!4v1513329656648" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </figure>
+
+            <h3>If you have questions, comments, or any other concerns, send us a message!</h3>
+
+            <form class="message-box">
+            <label class="message-name" for="name" name="name">Name:</label>
+            <input class="message-name" type="text" name="name">
+            <legend>Include any additional comments or notes:</legend>
+            <textarea  class="message-comment" name="comment" id="comment" cols="70" rows="10" placeholder="Start typing any additional information you'd like us to know..."></textarea>
+            <div>
+                <input class="contact-btn" type="submit">
+            </div>
+            </form>
+
+            <section>
+                <picture>
+                    <img src="images/#" alt="" width="" height="">
+                </picture>
+            </section>
+
+
+            <article>
+                <h3>Also, Tell us How We're Doing...</h3>
+                <p class="town-article">
+                    <img src="images/#" alt="" width="" height=""> Any kind of feedback would be appreciated. We always look for ways that we can improve!
+                </p>
+            </article>
+
+        </main>
+
+        <footer>
+            <section>
+                Mountain Spokes Bike Shop and Events <br>
+                3950 Valley Commons Drive, Bozeman MT 59718 <br> Shop: 801-623-8895 <br>
+                Events: 801-652-1874
+            </section>
+            <div class="footer-bar"> &copy;2017 All Rights Reserved | The Mountain Spoke |
+                <span id="currentdate"> <script src="scripts/currentdate.js"></script>
+                </span></div>
+        </footer>
+
+        <script src="scripts/hamburger.js"></script>
+
+
+    </body>
+</html>

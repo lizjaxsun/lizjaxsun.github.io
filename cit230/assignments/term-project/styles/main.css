@@ -8,20 +8,119 @@ html {
     border: 0;
 }
 
+main {
+    text-align: center;
+}
+
+button {;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    width: 300px;
+    background-color: #1985FF;
+    border-color: black;
+    color: #fff;
+    padding: 4px;
+}
+
 body {
   font-size: 17px;
   /* Declare the base font-family - from google font api or other */
     background-color: #E5DDB2;
-    margin: 0px;
+    margin: auto;
     padding: 0;
 }
 
-h2, h3, h4, table, p {
-    margin: 20px;
+.it {
+    text-decoration-line: overline;
 }
 
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
   /* Declare the maximum width and other main element rules to limit the stretch on wide views */
+}
+
+main figure img {
+    display: block;
+    max-width: 900px;
+    max-height: 440px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: -60px;
+}
+
+
+form {
+    margin: 2rem auto;
+    margin-top: -50px;
+    border: 2px solid #986200;
+    padding: 2rem;
+    background-color: #E5A444; ;
+    width: 93%;
+    max-width: 900px;
+}
+
+#date {
+    max-width: 800px;
+    margin: 2rem auto;
+    margin-top: 4px;
+    border-color: #985B00;
+}
+
+#date:hover {
+    background-color: lightgray;
+}
+
+select:hover {
+    background-color: lightgray;
+}
+
+label {
+    display: block;
+    padding: 0.8rem 0 0.05rem;
+}
+
+.input-line, textarea {
+    width: 87%;
+    border: 2px solid
+}
+
+.input-line {
+    border-color: #985B00;
+}
+
+.input-line:hover {
+    background-color: lightgray;
+}
+
+textarea:hover {
+    background-color: lightgray;
+}
+
+textarea {
+    padding: 8px;
+    font-size: 90%;
+    border-color: #985B00;
+}
+
+select {
+    border: 2px solid #985B00;
+}
+
+div input {
+    background-color: #E58F09;
+    padding: 8px;
+    width: 100px;
+    border: 2px solid #985B00;
+}
+
+input:hover {
+    background-color: #698AA5;
+}
+
+
+h2 {
+    margin-top: 60px;
 }
 
 header {
@@ -44,6 +143,7 @@ header h1 {
     top: -5px;
 
 }
+
 header img {
     position: relative;
     display: block;
@@ -54,6 +154,7 @@ header img {
     margin-right: auto;
     top: 32px;
 }
+
 header .subheading {
     position: absolute;
     width: 280px;
@@ -119,6 +220,23 @@ nav ul li a:hover {}
 nav button:onlick() {
 
 }
+    body {
+        text-align: center;
+    }
+
+    .larger {
+        display: none;
+    }
+
+    .small > table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 7px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -50px;
+    }
 
 }
 
@@ -129,17 +247,19 @@ main figure img { width: 100%; }
 
 section {}
 
+article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
+  width: ???; /* fill the page in the small/phone view */
+  margin: ???;
+}
 
-table, th, td {
+.larger, table, th, td {
     border: 1px solid black;
     border-collapse: collapse;
     padding: 7px;
     text-align: center;
-}
-
-article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
-  width: ???; /* fill the page in the small/phone view */
-  margin: ???;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -50px;
 }
 
 footer {
@@ -164,4 +284,30 @@ footer>p {
 } /* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
+
+
+.divide-info {
+    margin-top: -17px;
+}
+
+
+
+right {
+    display: block;
+    max-width: 130px;
+    padding: px;
+    margin-bottom: 3px;
+    margin-left: 77.2%;
+    font-size: 75%;
+    text-align: right;
+}
+
+left {
+    display: block;
+    max-width: 905px;
+    font-size: 80%;
+    margin-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
 

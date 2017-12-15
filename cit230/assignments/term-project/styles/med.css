@@ -5,6 +5,10 @@
 
   section.forecast { display: ???; }  /* show the 10-day forecast with the medium view and up */
 
+    p, h2, h3, h4, main {
+        margin: 3%;
+    }
+
     header h1 {
         display: block;
         right: 38%;
@@ -19,6 +23,43 @@
         display: block;
         top: 70px;
         right: 43%;
+    }
+
+    section picture img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        margin-left: auto;
+    }
+
+    section picture p {
+        display: block;
+        width: 90%;
+        height: 100%;
+        margin: 0;
+    }
+
+    .larger, table {
+        width: 80%;
+
+    }
+
+    .small {
+        display: none;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: 40em 600px;
+        grid-column-gap: 0px;
+        grid-row-gap: 80px;
+        margin: 0 auto;
+        justify-content: center;
+        align-content: center;
+        padding: 80px;
+        max-width: 1000px;
+
     }
 
     @media only screen and (max-width: 38.6em) {
@@ -50,7 +91,8 @@
         width: 100%;
         list-style-type: none;
         margin: 0;
-        padding: 0;
+        padding-left: 0;
+        padding-right: 0;
         overflow: hidden;
         background-color: #006BE5;
 
@@ -96,6 +138,15 @@
             line-height: 40px;
         }
 
+    @media only screen and (max-width: 55.5em) and (min-width: 40em) {
+
+        nav ul li:nth-child(4) {
+            height: 58px;
+
+        }
+
+    }
+
 
     @media only screen and (max-width: 45.6em) {
 
@@ -121,6 +172,54 @@
         }
 
     }
+
+    span section img {
+        width: 100%;
+        height: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .divide-grid {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-column-gap: 5px;
+        justify-content: center;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .divide-info {
+        margin-top: -17px;
+    }
+
+    .grid img {
+        width: 55%;
+        margin: 3%;
+    }
+
+
+    right {
+        display: block;
+        max-width: 130px;
+        padding: px;
+        margin-bottom: 3px;
+        margin-left: 77.2%;
+        font-size: 75%;
+        text-align: right;
+    }
+
+    left {
+        display: block;
+        max-width: 905px;
+        font-size: 80%;
+        margin-top: 4px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
 header h1 {
     top: -15px;
