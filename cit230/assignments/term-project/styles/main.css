@@ -120,19 +120,33 @@ main figure img { width: 100%; }
 
 section {}
 
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 7px;
+    text-align: center;
+}
+
 article p.town-article img {  /* This structure refers to img elements that are the posterity of paragraph elements within artcle elements */
   width: ???; /* fill the page in the small/phone view */
   margin: ???;
 }
 
 footer {
-    background-color: #1985FF;
-    margin-bottom: auto;
+    background-color: #006BE5;
+    margin-bottom: 0;
     bottom: 0;
-    padding: 0;
+    padding: 12px;;
+    text-align: center;
+    color: #fff;
 }
-footer aside {}
-footer>p {} /* This structure refers to p elements that are direct children of the footer element */
+footer aside {
+    margin-bottom: 0;
+}
+footer>p {
+    margin-bottom: 0;
+} /* This structure refers to p elements that are direct children of the footer element */
 
 /* Other Class Selectors */
 
