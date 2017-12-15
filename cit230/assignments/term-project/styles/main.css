@@ -12,10 +12,12 @@ body {
   font-size: 17px;
   /* Declare the base font-family - from google font api or other */
     background-color: #E5DDB2;
-    margin: 0;
+    margin: 0px;
     padding: 0;
+}
 
-
+h2, h3, h4, table, p {
+    margin: 20px;
 }
 
 header, nav, main, footer { /* the comma means apply the following CSS declarations to all of the listed elements */
@@ -28,13 +30,14 @@ header {
     background-color: #986200;
     font-family: 'Spectral SC', serif;
     height: 170px;
+    margin: 0px;
 }
 header h1 {
     line-height: 18px;
     width: 280px;
     bottom: 480px;
     position: absolute;
-    color: aliceblue
+    color: aliceblue;
 }
 header img {
     position: relative;
